@@ -1,0 +1,55 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"name": "lName",
+						"type": "string"
+					}
+				],
+				"name": "add_value",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct_contract.sol": "structure"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct_contract.sol": {
+			"keccak256": "0x798585ca69354a6b5f024cba2892c53281393d2a6cc73c25ddae0bd28a147b25",
+			"urls": [
+				"bzzr://674b4d22dd40e26ab9d270ee0e0c8ea7cc0a326cdc6b4e4ff640463dbf60dd56"
+			]
+		}
+	},
+	"version": 1
+}

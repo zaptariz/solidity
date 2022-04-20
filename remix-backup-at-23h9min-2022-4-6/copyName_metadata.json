@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "pub",
+				"outputs": [
+					{
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "int256"
+					}
+				],
+				"name": "copy",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/copy_text.sol": "copyName"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/copy_text.sol": {
+			"keccak256": "0x0005830331b133ff18ac5c17719d143d26d2fae86c71ba5bf8aff5570fc358f5",
+			"urls": [
+				"bzzr://754c3f5e8769bb625747f8402d7219541e09ecc7189fbdfffffb0032f5c99c51"
+			]
+		}
+	},
+	"version": 1
+}
